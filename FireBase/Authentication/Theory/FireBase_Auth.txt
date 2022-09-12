@@ -1,0 +1,49 @@
+I am Learning All About FireBase Authentication. 
+  Here I started a youtube course made by The Net Ninja.
+    Link:- https://youtube.com/playlist?list=PL4cUxeGkcC9jUPIes_B8vRjn1_GaplOPQ 
+  
+  The Length of Viedo is approx 144 minutes and 24 viedoes..
+  
+  
+  PreLerning :-  Intermidate Web-Developnment Skills
+  
+  Recommendation :- Reading Orignal Documentation For Better Understanding Ok.
+    Link:- https://firebase.google.com/docs
+  
+  
+  From Here The Course Began:
+  
+    Question 1:- What is FireBase and What it can Do?
+    
+    
+    
+    
+    
+    Rebuild Better Apps                         Improve app quality              Grow Your Business
+    
+    Cloud Firestore                               Crashlytics                        In-app messaging
+    Authentication                                Test Lab                           Google Anlytics
+    Ml Kit                                        Performance Monitoring             Predictions
+    Cloud function                                                                   A/B Testing
+    Hosting                                                                          Remote Config
+    Cloud Storage                                                                    Cloud Messaging
+    Realtime Database                                                                Dyamic Links
+                                                                                     App Indexing
+                                                                                     
+                                                                                                                                                                  
+These are The above are the feature of google firebase:
+  
+  You know what to do these.
+  
+It is bascially a Full back-end development
+
+
+How Does Firebase Authentication Works?
+
+
+
+
+Learn to make a set-up.
+
+
+                                                                                     
