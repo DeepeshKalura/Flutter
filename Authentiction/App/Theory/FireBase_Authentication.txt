@@ -1,0 +1,17 @@
+Here My all source is Google Docs:-
+
+
+Inside Build --> Authentication --> https://firebase.google.com/docs/auth/flutter/start
+
+  Firebase Authentication:
+    --> Identifer a User?
+    --> Working of Firebase Authentication
+    --> Industry Standard?
+    --> # New Firebase authentication with Identify platform --> Learn more
+    
+    --> Implementation paths.
+    
+    
+    C.W
+    
+    ..> Get Started with Firebase Authentication on flutter ok
