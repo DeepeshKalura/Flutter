@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "772434992060",
+    "project_id": "authentication-ac37e",
+    "storage_bucket": "authentication-ac37e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772434992060:android:73298606570e9f078d69b9",
+        "android_client_info": {
+          "package_name": "com.deepesh.authentication_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772434992060-igmd5a2h14kq44oeat9o9ms2s5rulk63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr2EU7sGSU0VNYy7IQEnpJlTeFMzMuoSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772434992060-igmd5a2h14kq44oeat9o9ms2s5rulk63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
