@@ -15,3 +15,20 @@ Inside Build --> Authentication --> https://firebase.google.com/docs/auth/flutte
     C.W
     
     ..> Get Started with Firebase Authentication on flutter ok
+
+
+    First Step is to install authentication in flutter app Ok.
+    
+    
+        From the root of your Flutter project, run the following command to install the plugin:
+
+
+          1) command :- flutter pub add firebase_auth
+          Once complete, rebuild your Flutter application:
+
+          2) command:- flutter run
+          Import the plugin in your Dart code:
+
+
+          3) import 'package:firebase_auth/firebase_auth.dart';
+        
