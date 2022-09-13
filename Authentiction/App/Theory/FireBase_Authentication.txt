@@ -31,4 +31,84 @@ Inside Build --> Authentication --> https://firebase.google.com/docs/auth/flutte
 
 
           3) import 'package:firebase_auth/firebase_auth.dart';
+          
+          
+Prototype and test with Firebase Local Emulator Suite --> Learn This to improve your codes Ok {H.W}
+  https://firebase.google.com/docs/emulator-suite/connect_auth :- Reading Docus for you.
+  
+  
+  There are three methods for listening to authentication state changes:
+    1) authStateChanges():
+      FirebaseAuth.instance
+      .authStateChanges()
+      .listen((User? user) {
+      if (user == null) {
+        print('User is currently signed out!');
+      } else {
+        print('User is signed in!');
+      }
+    });
+    
+    
+    Events are fired when the following occurs:
+
+      Right after the listener has been registered.
+      When a user is signed in.
+      When the current user is signed out.
+      
+      
+      2) idTokenChanges()
+        To subscribe to these changes, call the idTokenChanges() method on your FirebaseAuth instance:
+        
+          FirebaseAuth.instance
+            .idTokenChanges()
+            .listen((User? user) {
+             if (user == null) {
+              print('User is currently signed out!');
+              } else {
+                print('User is signed in!');
+              }
+             });
+             
+             Events are fired when the following occurs:
+
+                Right after the listener has been registered.
+                When a user is signed in.
+                When the current user is signed out.
+                When there is a change in the current user's token.
+                
+                
+                userChanges()
+                  To subscribe to these changes, call the userChanges() method on your FirebaseAuth instance:
+                  
+                    FirebaseAuth.instance
+                        .userChanges()
+                        .listen((User? user) {
+                          if (user == null) {
+                            print('User is currently signed out!');
+                          } else {
+                            print('User is signed in!');
+                          }
+                        });
+                  Events are fired when the following occurs:
+
+                    Right after the listener has been registered.
+                    When a user is signed in.
+                    When the current user is signed out.
+                    When there is a change in the current user's token.
+                    When the following methods provided by FirebaseAuth.instance.currentUser are called:
+                    reload()
+                    unlink()
+                    updateEmail()
+                    updatePassword()
+                    updatePhoneNumber()
+                    updateProfile()
+                    
+                    
+            Persisting authentication state --> H.W.
+            
+            
+            
+Authenticate with Firebase Using Email Links:
+  
         
